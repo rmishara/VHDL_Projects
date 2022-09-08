@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "E:/Xilinx projects/PPROJECT_BASIC/MY_AND.xst" -ofn "E:/Xilinx projects/PPROJECT_BASIC/MY_AND.syr" 

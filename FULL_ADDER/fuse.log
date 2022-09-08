@@ -1,0 +1,30 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o E:/Xilinx projects/FULL_ADDER/Rshift_top_TB_isim_beh.exe -prj E:/Xilinx projects/FULL_ADDER/Rshift_top_TB_beh.prj work.Rshift_top_TB 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "E:/Xilinx projects/FULL_ADDER/n_bit_mux_model.vhd" into library work
+Parsing VHDL file "E:/Xilinx projects/FULL_ADDER/DFF.vhd" into library work
+Parsing VHDL file "E:/Xilinx projects/FULL_ADDER/Rshift_top_model.vhd" into library work
+Parsing VHDL file "E:/Xilinx projects/FULL_ADDER/Rshift_top_TB.vhd" into library work
+Starting static elaboration
+WARNING:HDLCompiler:89 - "E:/Xilinx projects/FULL_ADDER/Rshift_top_model.vhd" Line 72: <nbit_mux_model> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "E:/Xilinx projects/FULL_ADDER/Rshift_top_model.vhd" Line 72: <nbit_mux_model> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "E:/Xilinx projects/FULL_ADDER/Rshift_top_model.vhd" Line 72: <nbit_mux_model> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "E:/Xilinx projects/FULL_ADDER/Rshift_top_model.vhd" Line 72: <nbit_mux_model> remains a black-box since it has no binding entity.
+Completed static elaboration
+WARNING:Simulator:648 - "E:/Xilinx projects/FULL_ADDER/Rshift_top_model.vhd" Line 72. Instance nbit_mux_model is unbound
+WARNING:Simulator:648 - "E:/Xilinx projects/FULL_ADDER/Rshift_top_model.vhd" Line 72. Instance nbit_mux_model is unbound
+WARNING:Simulator:648 - "E:/Xilinx projects/FULL_ADDER/Rshift_top_model.vhd" Line 72. Instance nbit_mux_model is unbound
+WARNING:Simulator:648 - "E:/Xilinx projects/FULL_ADDER/Rshift_top_model.vhd" Line 72. Instance nbit_mux_model is unbound
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity lsfit2_model [lsfit2_model_default]
+Compiling architecture arch_rshift_top_model of entity Rshift_top_model [rshift_top_model_default]
+Compiling architecture behavior of entity rshift_top_tb
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 7 VHDL Units
+Built simulation executable E:/Xilinx projects/FULL_ADDER/Rshift_top_TB_isim_beh.exe
+Fuse Memory Usage: 29776 KB
+Fuse CPU Usage: 2296 ms

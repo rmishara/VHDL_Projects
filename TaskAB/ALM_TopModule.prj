@@ -1,0 +1,7 @@
+vhdl work "Register.vhd"
+vhdl work "MUX.vhd"
+verilog work "ipcore_dir/child_LMBR1.v"
+vhdl work "control.vhd"
+vhdl work "clock_div_model.vhd"
+vhdl work "ALU.vhd"
+vhdl work "Top_modle.vhd"

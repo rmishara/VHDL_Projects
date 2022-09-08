@@ -1,0 +1,74 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to E:/Xilinx projects/TaskAB/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Parameter xsthdpdir set to E:/Xilinx projects/TaskAB/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Reading design: ALM_TopModule.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "E:\Xilinx projects\TaskAB\ipcore_dir\child_LMBR1.v" into library work
+Parsing module <child_LMBR1>.
+Parsing VHDL file "E:\Xilinx projects\TaskAB\Register.vhd" into library work
+Parsing entity <Reg>.
+Parsing architecture <Behavioral> of entity <reg>.
+Parsing VHDL file "E:\Xilinx projects\TaskAB\MUX.vhd" into library work
+Parsing entity <ALUMux>.
+Parsing architecture <ALUMODEL> of entity <alumux>.
+Parsing VHDL file "E:\Xilinx projects\TaskAB\control.vhd" into library work
+Parsing entity <ALMControlUnit_Mealy>.
+Parsing architecture <Behavioral> of entity <almcontrolunit_mealy>.
+Parsing VHDL file "E:\Xilinx projects\TaskAB\clock_div_model.vhd" into library work
+Parsing entity <clock_div_model>.
+Parsing architecture <Behavioral> of entity <clock_div_model>.
+Parsing VHDL file "E:\Xilinx projects\TaskAB\ALU.vhd" into library work
+Parsing entity <ALMALU>.
+Parsing architecture <arch_ALMALU> of entity <almalu>.
+Parsing VHDL file "E:\Xilinx projects\TaskAB\Top_modle.vhd" into library work
+Parsing entity <ALM_TopModule>.
+Parsing architecture <model_ALM> of entity <alm_topmodule>.
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 3.44 secs
+ 
+--> 
+
+Total memory usage is 4446624 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

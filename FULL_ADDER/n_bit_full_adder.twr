@@ -1,0 +1,149 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml n_bit_full_adder.twx n_bit_full_adder.ncd -o
+n_bit_full_adder.twr n_bit_full_adder.pcf
+
+Design file:              n_bit_full_adder.ncd
+Physical constraint file: n_bit_full_adder.pcf
+Device,package,speed:     xc6slx45,csg484,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+A<0>           |Cout           |    8.456|
+A<0>           |S<0>           |    6.433|
+A<0>           |S<1>           |    6.212|
+A<0>           |S<2>           |    6.938|
+A<0>           |S<3>           |    7.275|
+A<0>           |S<4>           |    8.308|
+A<0>           |S<5>           |    8.001|
+A<0>           |S<6>           |    9.345|
+A<0>           |S<7>           |    9.367|
+A<1>           |Cout           |    8.526|
+A<1>           |S<1>           |    6.282|
+A<1>           |S<2>           |    7.008|
+A<1>           |S<3>           |    7.345|
+A<1>           |S<4>           |    8.378|
+A<1>           |S<5>           |    8.071|
+A<1>           |S<6>           |    9.415|
+A<1>           |S<7>           |    9.437|
+A<2>           |Cout           |    7.981|
+A<2>           |S<2>           |    6.760|
+A<2>           |S<3>           |    6.800|
+A<2>           |S<4>           |    7.833|
+A<2>           |S<5>           |    7.526|
+A<2>           |S<6>           |    8.870|
+A<2>           |S<7>           |    8.892|
+A<3>           |Cout           |    8.021|
+A<3>           |S<3>           |    6.840|
+A<3>           |S<4>           |    7.873|
+A<3>           |S<5>           |    7.566|
+A<3>           |S<6>           |    8.910|
+A<3>           |S<7>           |    8.932|
+A<4>           |Cout           |    7.024|
+A<4>           |S<4>           |    6.494|
+A<4>           |S<5>           |    6.569|
+A<4>           |S<6>           |    7.913|
+A<4>           |S<7>           |    7.935|
+A<5>           |Cout           |    6.979|
+A<5>           |S<5>           |    6.524|
+A<5>           |S<6>           |    7.868|
+A<5>           |S<7>           |    7.890|
+A<6>           |Cout           |    6.376|
+A<6>           |S<6>           |    6.785|
+A<6>           |S<7>           |    7.287|
+A<7>           |Cout           |    6.120|
+A<7>           |S<7>           |    7.031|
+B<0>           |Cout           |    8.697|
+B<0>           |S<0>           |    6.727|
+B<0>           |S<1>           |    6.453|
+B<0>           |S<2>           |    7.179|
+B<0>           |S<3>           |    7.516|
+B<0>           |S<4>           |    8.549|
+B<0>           |S<5>           |    8.242|
+B<0>           |S<6>           |    9.586|
+B<0>           |S<7>           |    9.608|
+B<1>           |Cout           |    8.677|
+B<1>           |S<1>           |    6.433|
+B<1>           |S<2>           |    7.159|
+B<1>           |S<3>           |    7.496|
+B<1>           |S<4>           |    8.529|
+B<1>           |S<5>           |    8.222|
+B<1>           |S<6>           |    9.566|
+B<1>           |S<7>           |    9.588|
+B<2>           |Cout           |    8.113|
+B<2>           |S<2>           |    6.297|
+B<2>           |S<3>           |    6.932|
+B<2>           |S<4>           |    7.965|
+B<2>           |S<5>           |    7.658|
+B<2>           |S<6>           |    9.002|
+B<2>           |S<7>           |    9.024|
+B<3>           |Cout           |    8.138|
+B<3>           |S<3>           |    6.957|
+B<3>           |S<4>           |    7.990|
+B<3>           |S<5>           |    7.683|
+B<3>           |S<6>           |    9.027|
+B<3>           |S<7>           |    9.049|
+B<4>           |Cout           |    7.124|
+B<4>           |S<4>           |    6.851|
+B<4>           |S<5>           |    6.669|
+B<4>           |S<6>           |    8.013|
+B<4>           |S<7>           |    8.035|
+B<5>           |Cout           |    7.298|
+B<5>           |S<5>           |    6.843|
+B<5>           |S<6>           |    8.187|
+B<5>           |S<7>           |    8.209|
+B<6>           |Cout           |    6.697|
+B<6>           |S<6>           |    7.228|
+B<6>           |S<7>           |    7.608|
+B<7>           |Cout           |    6.738|
+B<7>           |S<7>           |    7.649|
+Cin            |Cout           |    8.580|
+Cin            |S<0>           |    6.808|
+Cin            |S<1>           |    6.336|
+Cin            |S<2>           |    7.062|
+Cin            |S<3>           |    7.399|
+Cin            |S<4>           |    8.432|
+Cin            |S<5>           |    8.125|
+Cin            |S<6>           |    9.469|
+Cin            |S<7>           |    9.491|
+---------------+---------------+---------+
+
+
+Analysis completed Fri Jul 01 02:34:30 2022 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4625 MB
+
+
+

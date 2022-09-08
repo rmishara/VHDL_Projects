@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "E:/Xilinx projects/PPROJECT_BASIC/MY_AND_isim_beh.exe" -prj "E:/Xilinx projects/PPROJECT_BASIC/MY_AND_beh.prj" "work.MY_AND" 

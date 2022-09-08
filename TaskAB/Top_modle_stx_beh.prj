@@ -1,0 +1,7 @@
+vhdl isim_temp "Register.vhd"
+vhdl isim_temp "MUX.vhd"
+vhdl isim_temp "control.vhd"
+vhdl isim_temp "clock_div_model.vhd"
+vhdl isim_temp "ALU.vhd"
+vhdl isim_temp "Top_modle.vhd"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

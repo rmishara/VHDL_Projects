@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "E:/Xilinx projects/TaskAB/ALMControlUnit_Moore_isim_beh.exe" -prj "E:/Xilinx projects/TaskAB/ALMControlUnit_Moore_beh.prj" "work.ALMControlUnit_Moore" 

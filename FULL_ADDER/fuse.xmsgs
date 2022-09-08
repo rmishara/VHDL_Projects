@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLCompiler" num="69" delta="unknown" >"E:/Xilinx projects/FULL_ADDER/Tb_nbit_alu.vhd" Line 70: &lt;<arg fmt="%s" index="1">n</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1728" delta="unknown" >"E:/Xilinx projects/FULL_ADDER/Tb_nbit_alu.vhd" Line 74: Type error near <arg fmt="%s" index="1">inp_a</arg> ; current type <arg fmt="%s" index="2">signed</arg>; expected type <arg fmt="%s" index="3">std_logic_vector</arg>
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1728" delta="unknown" >"E:/Xilinx projects/FULL_ADDER/Tb_nbit_alu.vhd" Line 75: Type error near <arg fmt="%s" index="1">inp_b</arg> ; current type <arg fmt="%s" index="2">signed</arg>; expected type <arg fmt="%s" index="3">std_logic_vector</arg>
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1728" delta="unknown" >"E:/Xilinx projects/FULL_ADDER/Tb_nbit_alu.vhd" Line 77: Type error near <arg fmt="%s" index="1">out_alu</arg> ; current type <arg fmt="%s" index="2">signed</arg>; expected type <arg fmt="%s" index="3">std_logic_vector</arg>
+</msg>
+
+<msg type="error" file="HDLCompiler" num="854" delta="unknown" >"E:/Xilinx projects/FULL_ADDER/Tb_nbit_alu.vhd" Line 42: Unit &lt;<arg fmt="%s" index="1">behavior</arg>&gt; ignored due to previous errors.
+</msg>
+
+</messages>
+
